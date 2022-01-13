@@ -1,10 +1,14 @@
 {
-  "name": "backend",
+  "name": "multi-link.live_backend",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon app.js"
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
   },
   "author": "",
   "license": "ISC",
