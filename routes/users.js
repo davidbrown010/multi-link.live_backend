@@ -55,7 +55,6 @@ router.patch('/', async (req,res) => {
 
 //creates new user if doesn't exist, requires accessToken, refreshtoken, and username; returns db_id
 router.post('/', async (req,res) => {
-
     try {
         //Church Setup
         const { churchName, churchId } = await getChurchPCO(req.body.accessToken)

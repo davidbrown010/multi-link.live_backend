@@ -26,4 +26,4 @@ mongoose.connect(process.env.DB_CONNECTION, () => {
 
 //START SERVER
 const port = process.env.PORT || 3000
-app.listen(port)
+app.listen(3000)
